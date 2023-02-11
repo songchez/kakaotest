@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function Base({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Head>
